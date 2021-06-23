@@ -4,6 +4,7 @@ Python Script for create a json file to finetuneas from Youtube transcription
 https://github.com/ozdefir/finetuneas  
   
 Example  
+Original:  
 00:00  
 hey what's going on everybody it's bro  
 00:02  
@@ -18,3 +19,16 @@ sit back relax and enjoy the show
 if you wouldn't mind please like comment  
 00:13  
 and subscribe  
+  
+Converted:  
+[  
+    {  
+        "begin": "00",  
+        "children": [],  
+        "end": "03",  
+        "id": "0",  
+        "language": "pt",  
+        "lines": [  
+            "e no início da tarde desta segunda-feira"  
+        ]  
+    },  
