@@ -56,7 +56,7 @@ def main():
          if key == "lines":
            sub[key] = listify(sub[key])
 
-   with open("AudioJson.json", 'w') as fout:
+   with open("YoutubeTranscription.json", 'w') as fout:
         json.dump(lines, fout, indent=4, ensure_ascii=False)
    os.remove("/content/TextoOrganizado.txt")
    return
